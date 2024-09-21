@@ -1,0 +1,211 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 5</title>
+    <link rel="stylesheet" href="CSS\styleseet.css">
+</head>
+
+<body>
+    <header class="main-header">
+        <!--Logo-->
+        <div class="logo-icon"></div>
+
+        <!--Navigation-->
+        <nav>
+            <a href="#section-home">HOME</a>
+            <a href="#section-our-profile">OUR PROFILE</a>
+            <a href="#section-portofolio">PORTOFOLIO</a>
+            <a href="#section-contac-us">CONTACT US</a>
+        </nav>
+    </header>
+
+    <hr />
+
+    <main>
+        <!--Home-->
+        <section id="section-home">
+            <header>
+                <h1>HALLO WELCOME TO THE WEBSITE STARGAZIERPAWPAWPET</h1>
+            </header>
+            <article>
+                <p>This is the first project from the day</p>
+                <!--Photo Banner-->
+                <div class="photo-banner"></div>
+            </article>
+        </section>
+
+        <hr />
+
+        <!--Our Profile-->
+        <section id="section-our-profile">
+            <header>
+                <h1>OUR PROFILE</h1>
+            </header>
+
+            <div class="profile-icon-container">
+                <div>
+                    <div class="profile-icon"></div>
+                    <h4>Shiba Inu Family</h4>
+                </div>
+                <div>
+                    <div class="profile-icon-02"></div>
+                    <h4>Husky Family</h4>
+                </div>
+                <div>
+                    <div class="profile-icon-03"></div>
+                    <h4>Shepherd Family</h4>
+                </div>
+                <div>
+                    <div class="profile-icon-04"></div>
+                    <h4>Leader Family</h4>
+                </div>
+                <div>
+                    <div class="profile-icon-05"></div>
+                    <h4>British Family</h4>
+                </div>
+                <div>
+                    <div class="profile-icon-06"></div>
+                    <h4>Persian Family</h4>
+                </div>
+                <div>
+                    <div class="profile-icon-07"></div>
+                    <h4>Sphynx Family</h4>
+                </div>
+            </div>
+        </section>
+
+        <hr />
+
+        <!--Portofolio-->
+        <section id="section-portofolio">
+            <header>
+                <h1>OUR PORTOFOLIO</h1>
+                <div class="font-portofolio">
+                <p>
+                    At STARGAZIERPAWPAWPET, we are passionate about providing high-quality care, products, and services
+                    for your beloved pets. Established in [Year], our mission is to create a one-stop shop for all pet
+                    needs—whether you're a proud dog owner, a cat lover, or have smaller animals like hamsters, birds,
+                    or fish, we are here to support you.
+
+                    <p>Our Services:
+                    <br>Premium Pet Food: We offer a wide selection of high-quality and organic pet food brands, including
+                    grain-free and specialty diets tailored to your pet’s health.
+                    Grooming Services: Keep your pet looking and feeling their best with our professional grooming
+                    services. From haircuts to nail trims, we’ve got it covered!
+                    Pet Accessories & Toys: Explore our extensive range of pet toys, collars, beds, and more to keep
+                    your furry friend entertained and comfortable.
+                    Veterinary Care: We have an on-site veterinary clinic providing check-ups, vaccinations, and
+                    wellness advice to ensure your pet stays in perfect health.
+                    Adoption Services: Looking for a new pet? Visit our pet adoption center and give a deserving animal
+                    a forever home.
+                    </p>
+                    <p>Why Choose Us?
+                    <br>Expert Advice: Our team of pet specialists is available to answer all your questions and help you
+                    choose the best products and services for your pet.
+                    Personalized Care: We understand that every pet is unique, which is why we offer personalized
+                    recommendations based on your pet’s breed, age, and health condition.
+                    Commitment to Quality: From pet food to grooming products, we carefully select items that meet the
+                    highest standards of quality to keep your pets safe and happy.
+                    Community Focus: We regularly partner with local shelters and host adoption events, pet training
+                    workshops, and pet-friendly social gatherings to bring together animal lovers in our community.
+                    </p>
+                    <p>Our Promise:
+                    <br>At STARGAZIERPAWPAWPET, we treat every pet like family. We are dedicated to providing top-notch
+                    care, services, and products that ensure your pet enjoys a healthy, happy, and fulfilling life.
+                    Whether you’re looking for the perfect toy, nutritious food, or expert grooming, you’ll find it all
+                    here with a friendly smile!
+                    </p>
+                </p>
+            </div>
+            </header>
+            <article>
+                <div class="our-profile-banner"></div>
+            </article>
+        </section>
+
+        <hr />
+
+        <!--Contact Us-->
+        <section id="section-contac-us">
+            <header>
+                <h1>CONTACT US</h1>
+            </header>
+            <section>
+                <div class="container-form-all">
+                    <!--FORM-->
+                    <div class="container-form">
+                        <div class="form-container">
+                            <form id="messageForm">
+                                <label for="name">Nama :</label>
+                                <input type="text" id="name" name="name" required>
+
+                                <label for="dob">Tanggal Lahir :</label>
+                                <input type="date" id="dob" name="dob" required>
+
+                                <label for="gender">Jenis Kelamin :</label>
+                                <div class="radio-group">
+                                    <input type="radio" id="male" name="gender" value="Laki-Laki" required>
+                                    <label for="male">Laki-Laki</label>
+                                    <input type="radio" id="female" name="gender" value="Perempuan" required>
+                                    <label for="female">Perempuan</label>
+                                </div>
+
+                                <label for="message">Pesan :</label>
+                                <textarea id="message" name="message" rows="4" required></textarea>
+
+                                <input type="submit" value="Submit">
+                            </form>
+                        </div>
+                    </div>
+
+                    <!--Result Form-->
+                    <div class="result-container">
+                        <div id="result" class="result">
+                            <strong>Current time :</strong> <span id="currentTime"></span>
+                            <br><br>
+                            <strong>Nama :</strong> <span id="resultName"></span><br>
+                            <strong>Tanggal Lahir :</strong> <span id="resultDob"></span><br>
+                            <strong>Jenis Kelamin :</strong> <span id="resultGender"></span><br>
+                            <strong>Pesan :</strong> <span id="resultMessage"></span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <hr />
+
+    </main>
+
+    <footer class="pembuat-web">
+        <p>Made By ANGGA RAHMAT ADRIYADHI@2024</p>
+    </footer>
+
+    <!--Result Form-->
+    <script>
+        document.getElementById('messageForm').addEventListener('submit', function (event) {
+            event.preventDefault();
+
+            // Get form values
+            const name = document.getElementById('name').value;
+            const dob = document.getElementById('dob').value;
+            const gender = document.querySelector('input[name="gender"]:checked').value;
+            const message = document.getElementById('message').value;
+
+            // Display form values in the result box
+            document.getElementById('resultName').textContent = name;
+            document.getElementById('resultDob').textContent = dob;
+            document.getElementById('resultGender').textContent = gender;
+            document.getElementById('resultMessage').textContent = message;
+
+            // Get the current time and display it
+            const now = new Date();
+            document.getElementById('currentTime').textContent = now.toUTCString();
+        });
+    </script>
+
+</body>
+
+</html>
