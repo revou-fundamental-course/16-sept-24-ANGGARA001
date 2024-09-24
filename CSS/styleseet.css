@@ -16,6 +16,11 @@ nav>a {
     text-decoration: none;
 }
 
+.icon-menu{
+    background-color: lime;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 1); /* Larger shadow on hover */
+}
+
 .logo-icon{
     height: 50px;
     width: 50px;
@@ -24,6 +29,8 @@ nav>a {
     background-size: cover;
     background-position: center;
     border-radius: 50%;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 1);
+    background-color: lime;
 }
 
 .photo-banner{
@@ -34,6 +41,37 @@ nav>a {
     height: 450px;
 }
 
+.slideshow-container {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+  }
+
+.prev, .next {
+    cursor: pointer;
+    position: relative;
+    top: 50%;
+    width: auto;
+    padding: 0px;
+    font-weight: bold;
+    transition: 0.6s ease;
+  }
+
+  .tombol{
+    background-color: lime;
+    font-size: 25px;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 1);
+  }
+
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .prev {
+    left: 0;
+  }
+
 .profile-icon{
     height: 50px;
     width: 50px;
@@ -42,6 +80,8 @@ nav>a {
     background-size: cover;
     background-position: center;
     border-radius: 50%;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 1);
+
 }
 
 .profile-icon-02{
@@ -52,6 +92,7 @@ nav>a {
     background-size: cover;
     background-position: center;
     border-radius: 50%;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 1);
 }
 
 .profile-icon-03{
@@ -62,6 +103,7 @@ nav>a {
     background-size: cover;
     background-position: center;
     border-radius: 50%;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 1);
 }
 
 .profile-icon-04{
@@ -72,6 +114,7 @@ nav>a {
     background-size: cover;
     background-position: center;
     border-radius: 50%;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 1);
 }
 
 .profile-icon-05{
@@ -82,6 +125,7 @@ nav>a {
     background-size: cover;
     background-position: center;
     border-radius: 50%;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 1);
 }
 
 .profile-icon-06{
@@ -92,6 +136,7 @@ nav>a {
     background-size: cover;
     background-position: center;
     border-radius: 50%;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 1);
 }
 
 .profile-icon-07{
@@ -102,13 +147,14 @@ nav>a {
     background-size: cover;
     background-position: center;
     border-radius: 50%;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 1);
 }
 .our-profile-banner{
     border: 1px solid;
     background-image: url(../ASSETS/background01.jpg);
-    background-position: center;
+    background-position: unset;
     background-size: cover;
-    height: 400px;
+    height: 80%;
 }
 
 .font-portofolio{
@@ -130,6 +176,7 @@ nav>a {
 }
 
 .container-form {
+    background-color: lime;
     border: 2px solid;
     display: flex;
     justify-content: space-between;
@@ -163,6 +210,7 @@ body {
 }
 
 .result-container {
+    background-color: lime;
     border: 1px solid black;
     padding: 20px;
 }
@@ -206,9 +254,8 @@ input[type="submit"] {
 
 .result {
     display: flex;
-    font-size: 14px;
+    font-size: 18px;
     white-space: pre-wrap;
-    align-items: flex-start;
-    align-content: center;
     flex-direction: column;
+    padding: 50px
 }

@@ -14,11 +14,13 @@
 
         <!--Navigation-->
         <nav>
-            <a href="#section-home">HOME</a>
-            <a href="#section-our-profile">OUR PROFILE</a>
-            <a href="#section-portofolio">PORTOFOLIO</a>
-            <a href="#section-contac-us">CONTACT US</a>
+            <a class="icon-menu" href="#section-home">HOME</a>
+            <a class="icon-menu" href="#section-our-profile">OUR PROFILE</a>
+            <a class="icon-menu" href="#section-portofolio">PORTOFOLIO</a>
+            <a class="icon-menu" href="#section-contac-us">CONTACT US</a>
         </nav>
+
+        
     </header>
 
     <hr />
@@ -30,10 +32,26 @@
                 <h1>HALLO WELCOME TO THE WEBSITE STARGAZIERPAWPAWPET</h1>
             </header>
             <article>
-                <p>This is the first project from the day</p>
+                <p>This is Project for mini course RevoU</p>
                 <!--Photo Banner-->
-                <div class="photo-banner"></div>
+            <div class="slideshow-container">
+                <!-- Slides -->
+                <div class="mySlides fade">
+                <img src="/ASSETS/background01.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="/ASSETS/Banner2.jpg" style="width:100%">
+                    </div>
+
+                <div class="mySlides fade">
+                <img src="/ASSETS/banner3.webp" style="width:100%">
+                </div>
+            </div>
             </article>
+            <!-- Navigation Buttons -->
+            <a class="prev" onclick="plusSlides(-1)"><button class="tombol">Preview</button></a>
+            <a class="next" onclick="plusSlides(1)"><button class="tombol">Next</button></a>
         </section>
 
         <hr />
@@ -133,7 +151,8 @@
                 <h1>CONTACT US</h1>
             </header>
             <section>
-                <div class="container-form-all">
+                    <div class="container-form-all">
+
                     <!--FORM-->
                     <div class="container-form">
                         <div class="form-container">
