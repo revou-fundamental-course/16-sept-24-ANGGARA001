@@ -24,7 +24,7 @@ let slideIndex = 0;
 showSlides();
 
 function showSlides() {
-  let slides = document.getElementsByClassName("mySlides");
+  let slides = document.getElementsByClassName("mySlides fade");
   for (let i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
   }
